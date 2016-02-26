@@ -10,4 +10,3 @@ RUN echo 'Hi, I am in your container' > /usr/share/nginx/html/index.html
 EXPOSE 80
 
 CMD ["nginx", "-g", "daemon off;"]
-CMD ["/bin/sh", "-c", "while true; do echo hello world; sleep 1; done"]
