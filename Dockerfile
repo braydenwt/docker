@@ -10,5 +10,5 @@ RUN echo 'Hello, World!' > /usr/share/nginx/html/index.html
 EXPOSE 80
 
 ENTRYPOINT ["nginx"]
-RUN ["-h"]
+CMD ["-h"]
 
